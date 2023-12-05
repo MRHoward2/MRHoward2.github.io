@@ -83,7 +83,7 @@
   left: 2px;
 }
 
-.slide-container1 .next {
+.slide-container1 .next1 {
   right: 2px;
 }
 
@@ -104,7 +104,7 @@
   background-color: #dfd6ce;
 }
 
-.dots-container1 .dot1.active {
+.dots-container1 .dot1.active1 {
   border: 2px solid rgb(46, 166, 206);
 }
 
@@ -160,11 +160,11 @@ body h1 {
   width: 100%;
 }
 
-.slide-container1 .slide1.fade {
+.slide-container1 .slide1.fade1 {
   animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
-.slide-container1 .slide1 img {
+.slide-container1 .slide1 img1 {
   width: 100%;
 }
 
