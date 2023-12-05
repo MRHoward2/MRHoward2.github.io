@@ -146,6 +146,29 @@ body h1 {
   width: 100%;
 }
 
+.slide-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+.slide-container1 .slide {
+  display: none;
+  width: 100%;
+}
+
+.slide-container1 .slide.fade {
+  animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.slide-container1 .slide img {
+  width: 100%;
+}
+
+
 h1{
   font-family: 'Open Sans', sans-serif;
   color: #333;
