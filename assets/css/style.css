@@ -57,6 +57,64 @@
   box-sizing: border-box;
 }
 
+.slide-container1 .prev,
+.slide-container1 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.slide-container1 .prev:hover,
+.slide-container1 .next:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white;
+}
+
+.slide-container1 .prev {
+  left: 2px;
+}
+
+.slide-container1 .next {
+  right: 2px;
+}
+
+.dots-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.dots-container1 .dot {
+  cursor: pointer;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  color: #333;
+  border-radius: 50%;
+  background-color: #dfd6ce;
+}
+
+.dots-container1 .dot.active {
+  border: 2px solid rgb(46, 166, 206);
+}
+
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   height: 100%;
   background-image: url("./resources/Background.jpg");
