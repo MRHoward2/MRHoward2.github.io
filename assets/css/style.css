@@ -57,8 +57,8 @@
   box-sizing: border-box;
 }
 
-.slide-container1 .prev,
-.slide-container1 .next {
+.slide-container1 .prev1,
+.slide-container1 .next1 {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -73,13 +73,13 @@
   user-select: none;
 }
 
-.slide-container1 .prev:hover,
-.slide-container1 .next:hover {
+.slide-container1 .prev1:hover,
+.slide-container1 .next1:hover {
   background-color: rgba(255, 255, 255, 0.25);
   color: white;
 }
 
-.slide-container1 .prev {
+.slide-container1 .prev1 {
   left: 2px;
 }
 
@@ -94,7 +94,7 @@
   padding: 10px;
 }
 
-.dots-container1 .dot {
+.dots-container1 .dot1 {
   cursor: pointer;
   margin: 5px;
   width: 20px;
@@ -104,7 +104,7 @@
   background-color: #dfd6ce;
 }
 
-.dots-container1 .dot.active {
+.dots-container1 .dot1.active {
   border: 2px solid rgb(46, 166, 206);
 }
 
@@ -155,16 +155,16 @@ body h1 {
   position: relative;
 }
 
-.slide-container1 .slide {
+.slide-container1 .slide1 {
   display: none;
   width: 100%;
 }
 
-.slide-container1 .slide.fade {
+.slide-container1 .slide1.fade {
   animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
-.slide-container1 .slide img {
+.slide-container1 .slide1 img {
   width: 100%;
 }
 
