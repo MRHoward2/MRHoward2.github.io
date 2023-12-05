@@ -160,11 +160,11 @@ body h1 {
   width: 100%;
 }
 
-.slide-container1 .slide1.fade1 {
+.slide-container1 .slide1.fade {
   animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
-.slide-container1 .slide1 img1 {
+.slide-container1 .slide1 img {
   width: 100%;
 }
 
